@@ -1,28 +1,44 @@
-def create_board(width,height):
+def create_board(width, height):
+    '''This function creates board with parametrs: width and height'''
+    board = []
+    upper_board = []
+    lower_board = []
+    frame_board = []
+
+    for row in range(width):
+        upper_board.append("X")
+    board.append(upper_board)
+    lower_board = upper_board
+
+    for row in range(width):
+        if row == 0 or row == height-1:
+            frame_board.append("X")
+        else:
+            frame_board.append("-")
+
+    for i in range(height-2):
+        board.append(frame_board[:])
+
+    board.append(lower_board)
+    print(board)
+    return board
 
 
-   main_board = []
-   inner_board = ["#"*width]
+def print_board(board):
+    for row in board:
+        print(" ".join(row))
 
-   for column in range(height):
-       main_board.append(inner_board[:])
+def insert_player(board, x, y):
+    board[x][y] = "@"
 
+def insert_player2(board, x, y):
+    board[x][y] = "@"
 
-   for row in range(1, height - 1):
-       main_board[row] = ["#" + int(width-2) * " " + "#"]
-
-       return main_board
-
-# def point (z):
-#     z = main_board.insert(150, "R")
-#     return z
-
-def print_board (board):
-   for line in board:
-       print(*line)
-    #    print (x)
 
 def main():
-   print_board(create_board(143,42))
+    complete_board = create_board(10,10)
+    insert_player(complete_board,2,2)
+    insert_player2(complete_board,3,4)
+    print_board(complete_board)
 
 main()
