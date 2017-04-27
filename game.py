@@ -20,7 +20,6 @@ def create_board(width, height):
         board.append(frame_board[:])
 
     board.append(lower_board)
-    print(board)
     return board
 
 
@@ -34,11 +33,28 @@ def insert_player(board, x, y):
 def insert_player2(board, x, y):
     board[x][y] = "@"
 
+def getch():
+    import sys, tty, termios
+    fd = sys.stdin.fileno()
+    old_settings = termios.tcgetattr(fd)
+    try:
+        tty.setraw(sys.stdin.fileno())
+        char = sys.stdin.read(1)
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+    return char
+
+
 
 def main():
     complete_board = create_board(10,10)
     insert_player(complete_board,2,2)
-    insert_player2(complete_board,3,4)
+    #insert_player2(complete_board,2,2)
+    char = getch()
+    if char=="w":
+        insert_player(complete_board,1,2)
     print_board(complete_board)
+
+
 
 main()
