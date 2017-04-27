@@ -61,15 +61,13 @@ def move():
     print_board(complete_board)
     # else:
     #     print("Use 'W-S-A-D'")
+
+
 def main():
     complete_board = create_board(10,10)
     insert_player(complete_board,2,2)
     char = getch()
-    move = move()
-
-
-
-
+     = move()
 
 
 
