@@ -45,6 +45,24 @@ def getch():
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
     return char
 
+def move():
+
+    if char == "w":
+        insert_player(complete_board,1,2)
+    print_board(complete_board)
+    if char == "a":
+        insert_player(complete_board, 2, 1)
+    print_board(complete_board)
+    if char == "s":
+        insert_player(complete_board,3,2)
+    print_board(complete_board)
+    if char == "d":
+        insert_player(complete_board, 2, 3)
+    print_board(complete_board)
+    # else:
+    #     print("Use 'W-S-A-D'")
+
+
 def main():
     complete_board = create_board(width,height)
     insert_player(complete_board,2,2)
