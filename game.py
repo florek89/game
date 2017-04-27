@@ -20,7 +20,7 @@ def create_board(width, height):
         board.append(frame_board[:])
 
     board.append(lower_board)
-    print(board)
+    # print(board)
     return board
 
 
