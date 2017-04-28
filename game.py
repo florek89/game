@@ -1,37 +1,50 @@
-width = 50
-height = 10
+import os
+
+width = 60
+height = 40
 
 
 def create_board(width, height):
-   height_list = []
-   width_list = []
-   width2 = []
-   for row in range(width):
+    height_list = []
+    width_list = []
+    width_end = []
+    for poz in range(width):
        width_list.append('X')
-   for row in range(height - 2):
+    for poz in range(height - 2):
        height_first = []
        height_list.append(height_first)
-       for row in range(width):
-           if row == 0 or row == width - 1 :
+       for poz in range(width):
+           if poz == 0 or poz == width - 1 :
                height_first.append('X')
            else:
                height_first.append(' ')
 
-   for el in range(width):
-       width2.append('X')
-   board = [width_list, *height_list, width2]
-   return board
-
+    for poz in range(width):
+       width_end.append('X')
+    board = [width_list, *height_list, width_end]
+    return board
 
 
 def print_board(board):
-    for row in board:
-        print(" ".join(row))
+    for poz in board:
+        print(*poz)
 
-def insert_player(board, x, y):
-    board[x][y] = "@"
+def tree(board, x, y):
+    board[x][y] = "&"
+    board[x-1][y]= "&"
+    board[x-2][y]= "&"
+    board[x-3][y-1]= "#"
+    board[x-3][y+1]= "#"
+    board[x-4][y-2]= "#"
+    board[x-4][y+2]= "#"
+    board[x-5][y-2]= "#"
+    board[x-5][y+2]= "#"
+    board[x-6][y-1]= "#"
+    board[x-6][y+1]= "#"
+    board[x-7][y]= "#"
+    return board
 
-def insert_player2(board, x, y):
+def player(board, x, y):
     board[x][y] = "@"
 
 def getch():
@@ -43,33 +56,41 @@ def getch():
         char = sys.stdin.read(1)
     finally:
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+    print(char)
     return char
 
-def move():
 
+def move():
+    char = getch()
+    getch()
     if char == "w":
-        insert_player(complete_board,1,2)
-    print_board(complete_board)
+        os.system("cls")
+        board = create_board(width, height)
+        player(board, 2, 1)
+        print_board(board)
+        move ()
     if char == "a":
-        insert_player(complete_board, 2, 1)
-    print_board(complete_board)
+        os.system("cls")
+        player(board, 2, 1)
+        print_board(board)
     if char == "s":
-        insert_player(complete_board,3,2)
-    print_board(complete_board)
+        os.system("cls")
+        player(board,3,2)
+        print_board(board)
     if char == "d":
-        insert_player(complete_board, 2, 3)
-    print_board(complete_board)
-    # else:
+        os.system("cls")
+        player(board, 2, 3)
+        print_board(board)
     #     print("Use 'W-S-A-D'")
 
 
 def main():
-    complete_board = create_board(width,height)
-    insert_player(complete_board,2,2)
-    #insert_player2(complete_board,2,2)
-    char = getch()
-    if char=="w":
-        insert_player(complete_board,1,2)
-    print_board(complete_board)
+     board = create_board(width, height)
+     player(board, 1, 1)
+     tree(board, 13,13)
+     tree(board, 13,4)
+     tree(board, 15,20)
+     print_board(board)
+     move ()
 
 main()
