@@ -3,6 +3,7 @@ import csv
 import sys
 
 
+
 def found_char(board, x, y):
     if board[x][y] == "?":
         print('action')
@@ -14,6 +15,12 @@ def create_scren_from_file():
     scren_list = []
     text = open("mapa.csv").read()
     # print (text)
+
+def create_scren_from_file():
+    scren_list = []
+    text = open("mapa.csv").read()
+    #print (text)
+
     scren_list.append([])
     row = 0
     for i in text:
@@ -71,6 +78,7 @@ def welcome_screen ():
     board = create_scren_from_file()
     print_scren(board, 42,82)
 
+
     while True:
         player_name = input('Press your name and press enter: ')
         if len(player_name) <= 10:
@@ -98,6 +106,19 @@ def main():
     board = create_scren_from_file()
     player(board, y_player, x_player)
     print_scren(board, 83, 123)
+
+    player_name = input('Press your name and press enter: ')
+    player_character = input('Chose your player character (s,b,m): ')
+    return (player_name, player_character)
+
+def main():
+    player_name, player_character = welcome_screen()
+    x_player = 10 #starting position of player
+    y_player = 70
+    board = create_scren_from_file()
+    player(board, y_player, x_player)
+    print_scren(board, 42,82)
+
     x = getch()
 
     while x != "q":
@@ -118,9 +139,10 @@ def main():
         elif char == "q":
             sys.exit()
         board = create_scren_from_file()
-
         text_insert(board,3,115, player_name)
         text_insert(board,3, 117, player_character)
+        text_insert(board,3,74, player_name)
+        text_insert(board,3,76, player_character)
         text_insert(board,83,74,'Mana:')
         text_insert(board,83,76,'Range:')
         text_insert(board,83,78,'Skil:')
@@ -132,9 +154,12 @@ def main():
         tree(board,31,20)
         tree(board,40,21, '?')
         tree(board,61,20,'?')
+
         found_char(board,y_player,x_player)
         player(board, y_player, x_player)
         print_scren(board,82,123)
+        player(board, y_player, x_player)
+        print_scren(board,42,82)
         print(x_player,y_player)
 
 main()
