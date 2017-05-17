@@ -2,7 +2,6 @@ import os
 import csv
 import sys
 
-
 def create_scren_from_file():
     scren_list = []
     text = open("mapa.csv").read()
@@ -59,15 +58,15 @@ def getch():
     print(char)
     return char
 
-def welcome_screen ():
+def start_screen ():
     board = create_scren_from_file()
-    print_scren(board, 42,82)
-    player_name = input('Press your name and press enter: ')
-    player_character = input('Chose your player character (s,b,m): ')
-    return (player_name, player_character)
+    print_scren(board, 42, 82)
+    start = getch()
+
 
 def main():
-    player_name, player_character = welcome_screen()
+    start_screen()
+    #player_name, player_character = welcome_screen()
     x_player = 10 #starting position of player
     y_player = 70
     board = create_scren_from_file()
@@ -107,7 +106,7 @@ def main():
         tree(board,40,21, '?')
         tree(board,61,20,'?')
         player(board, y_player, x_player)
-        print_scren(board,42,82)
+        print_scren(board, 42, 82)
         print(x_player,y_player)
 
 main()
