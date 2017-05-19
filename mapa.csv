@@ -1,0 +1,164 @@
+Start_scren 1-41
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                                                                                                                        X
+X  __          ___                  _                                                                                    X
+X  \ \        / (_)                | |                                                   xxxxxx                          X
+X   \ \  /\  / / _ ______ _ _ __ __| |                                               xxxxx xx                            X
+X    \ \/  \/ / | |_  / _` | '__/ _` |                                            xxxx    xx                             X
+X     \  /\  /  | |/ / (_| | | | (_| |                                           xx     xx                               X
+X      \/  \/   |_/___\__,_|_|  \__,_|                                          x       x                                X
+X                                                                               x       x                                X
+X                                                                               x       xx                               X
+X                   _                 _                                         x        xx                              X
+X          /\      | |               | |                                        xx        xxxx                           X
+X         /  \   __| |_   _____ _ __ | |_ _   _ _ __ ___                         xx           xxxxxxxxxx                 X
+X        / /\ \ / _` \ \ / / _ \ '_ \| __| | | | '__/ _ \                         xxx               xxxx                 X
+X       / ____ \ (_| |\ V /  __/ | | | |_| |_| | | |  __/                            xxxx        xxxx                    X
+X      /_/    \_\__,_| \_/ \___|_| |_|\__|\__,_|_|  \___|                                xxxxxxxxx                       X
+X                                                         v 1.2                                                          X
+X                                                                                                                        X
+X                                                                                                                        X
+X                                              xxx  xxx  xxx                                                             X
+X                                        x x x               xx                         xxxxx                            X
+X                                     xx                      xxx                   xx x    xxx                          X
+X                  xx xx xxxxxxxx   xx                           xx               xx        xx                           X
+X               xxx             xx xx                              x             xx        xx                            X
+X             xxx                   xx                              xx         xx         x                              X
+X           xx                        x                               x       xx          x                              X
+X          xx                          xx                              xx     x         xx                               X
+X          x                            xx                              xx   xx    xxx x                                 X
+X          xxx                            x                     xx x xxx xx x xxxx                                       X
+X            xx                             xx            x x x        xxx  xx                                           X
+X              xx                            xx         xx       x x xx     x                                            X
+X               x x                            x    xxxx   x xx             xx                                           X
+X                   xx                         xx  xx   x x               xxxxxxxxx                                      X
+X                     xx                           x  xx                  x       x                                      X
+X                      xx                xx xx xx xxx                    x       xx                                      X
+X                        xx     xxx x  xx      xxxxx                      xxx xxx                                        X
+X                         xxx xx      xx x x x                                                                           X
+X                             x xxx x                                                     Press to key to continue:      X
+X                                                                                                                        X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+welcom_scren 42-82
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X         xx                                                                                                 x    xx     X
+X  __    xx    ___                  _                                                                        x     x     X
+X  \ \        / (_)                | |                                        Instruction:                    x    x     X
+X   \ \  /\  / / _ ______ _ _ __ __| |                                                                         x    xxxx X
+X    \ \/  \/ / | |_  / _` | '__/ _` |                                      You collect only:                xx      xx  X
+X   x \  /\  /  | |/ / (_| | | | (_| |                                                                          xx       X
+Xxxx   \/  \/   |_/___\__,_|_|  \__,_|                                        ? - random object                   xx xxx X
+X                                                                             o - apple                                 xX
+X                                                                             $ - coin                                   X
+X                   _                 _                                       B - book                                   X
+X          /\      | |               | |                                      / - scroll                                 X
+X         /  \   __| |_   _____ _ __ | |_ _   _ _ __ ___                                                                 X
+X        / /\ \ / _` \ \ / / _ \ '_ \| __| | | | '__/ _ \                   Hurry up, you do not have much Time          X
+X       / ____ \ (_| |\ V /  __/ | | | |_| |_| | | |  __/                   Remember any collect is your score!          X
+X      /_/    \_\__,_| \_/ \___|_| |_|\__|\__,_|_|  \___|                                                                X
+X                                                                                                                        X
+X       Select your profession to help you in the game:                                                                  X
+X                                                                                                                        X
+X    Scroll Master (s):                   Coin Master (c):                      Magic Master (m):                        X
+X                                                                                                                        X
+X      you collect one more scroll          you collect two more gold           you collect one more box                 X
+X                                                                                                                        X
+X                                                                                                                        X
+X        xxxxx        xxxxxx                          xxxx                                xxxxx                          X
+X        x   xxx xxxxxx   x                          xxxxx                               xx    xxx                       X
+X        x   x        x   x                        xxxx  xxxx                         xxx       xxx                      X
+X       xx  xx      xx   xx                        xxxx xxxxx                       xxx        x                         X
+X      xx  xx       x   xx                           xxxxxxxx                      xx       xxx                          X
+X     xx   xxxx x xxx  xx                                                           xxxx  xxx                            X
+X      xxxx        xxxxx                                                                xxx                              X
+X                   xx                                                                                                   X
+X                                                                                                                        X
+Xxx  x x x                   +--------------------------------------------------+                                      xxX
+X           x                |                     +--------------------------+ |                                    x   X
+Xxx          xx              | You collect only:   |                          | |                                 xx    xX
+X     x xx     xx            |                     |                          | |                                xx    xxX
+X        x       x           |   ? o $ B /         +--------------------------+ |                                x   xx  X
+X         x      xx          +--------------------------------------------------+                                x   x   X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+lewel1 83-123
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                                                        xx      xxx                                                     X
+x                                                       xx      xx                                                       X
+X                                                      xx      xxx            xx                                         X
+X       xx xxxxx             xxxxxxxx                 x      xx             xxxxx                                        X
+X      xxxxxxxxxx          xxx      xxx              xx      x           xxxx   xxx                                      X
+X       xx     x           xx         xx             x       x         xxx        xxxx                                   X
+X      xxx    xxx         xxx          x            xx      xx        xxxxxxxxxxxxxxxx               xxxxxxxx            X
+X        xxx xxx          xxxxxxxxxxxxxx           x        x            x         x               xx       xxx          X
+X         xxxxx                                    x        x            x xxxx    x             xxx          xxx        X
+X          x                                       x        x            x xxxx    x             xxxxxxxxxxxxxxxx        X
+X          x                                      xx       xx            xxx xxxxxxx               x       xxx           X
+X          x                                      xx        xx                                     x       xxx           X
+X                              xxxxxxxx            xx        xx                                    x       xxx           X
+X                              xxxxxxxxxxx          xx         xx                                  xxxxxxxxx x           X
+X                            xxx        xx           xx         xx                                                       X
+X                              x         x            xx         xx                xxxxxx                                X
+X                            xxxx       xx             xxx        x              xx     xx                               X
+X                               xx     xx                xx       x              x       xx                        xTownxX
+X      xxxx                      xxxxxxx                  xx      x             xx xxxxx  x                              X
+X     xxxxxxxxxx                  xx                      xx      xxx           xxxx xxxxxx                         xxxx X
+X   xxx       xx                   x                 xxxxxxxxxxxxxxxxxxx                                                 X
+X    x        x                    x               xxx                                                                   X
+X   xx        xx                                                                                                         X
+X   xxx      xxx                                        xxxxxxxxxxx                                  xxxxxxxxxxx         X
+X      xxxxxxxx                                     xxxxxxx      xxxxxx         xxxxxxxxx           xx         xx        X
+X        xx                                              x       xx           xxx       xx         xx   xxxx    x        X
+X        x           xxxxxxxxxx                         xx       xx           x   xxx    xxx        xx  xxxx   xx        X
+X       xxxx       xxx        xxx                       x        x            xxxxxxxxxxxxxx       xxxxxx xxxxxxx        X
+X                  xxxxxxxxxxxxxxx                      x       xx                                                       X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                                                                                X                                       X
+X                                                                  XXXXXX        X  Apples:           Coins:             X
+X                                                                 H      H       X                                       X
+X                                                                 H--o---H       X  Scrolls:                             X
+X                                                                 H------H       X                                       X
+X                                                               total item       X  Books:                               X
+X                                                                                X                                       X
+X                                                                                X                                       X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+lewel2 124-164
+XyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                                                                                                                        X
+x                                                                     xxx                                                X
+X                                                                   xxxxxxxxx                                            X
+X          xxxxxxxxxx                 xxxxxxxxxxxx                 xxxxxxxxxx                                            X
+X         xx        xx               xx          xx               xx        xx              xxxxxxxxxxxxxxxxxxxxxxxx     X
+X         xxxxxxxxxxxx               xxxxxxxxxxxxxx               x xxx     xx              x                    xx      X
+X         x          x               x            x               x xxx      x             xxxxxxxxxxxxxxxxxxxxxxx       X
+X         x xx    xx x               x xxx    xxx x               x     xxx xx            xx     xxxx           xx       X
+X         xx   x     x               x     x      x               xxxxxxxxxxxx           xx   xx       xxx     xx        X
+X         xxxxxxxxxxxx               xxxxxxxxxxxxxx               x         xx          xxxxxxxxxxxxxxxxxxxxxxxx         X
+X                                                                 x    xxx  xx          xxxxxxxxxxx          xx          X
+X                                                                 x xx xxx  xxx        xx   xxxxx x          x           X
+X                                                                 xxxx      xxx       xx                    xx           X
+X                    xxxxxxxxxxxxxxx              xxxx            xxxxxxxxxxxxx        xxxxxxxxxxxxxxxxxxxxxx            X
+X     xxx           x            xxx             x    x                                                                  X
+X    xx xx          xxxxxxxxxxxxxxxx             xxxxxx                                                                  X
+X    x   x          x              xxxxxxxx        xx        xxx                                    xxxx   xxxxx         X
+X    xxxxx          x  xxx    xxx  x  xx  xx       xx       xxxxx                                   x  xxxxx   x         X
+X      x            x  xxx         x xxxx xx               xxxxxxx          xxx            xx       x         x          X
+X      x            xxxxxxxxxxxxxxxxxxxxxxxx                               xxxxx          xxxx      xxx     xxxxxxxxxxxxxX
+X                                                                         xxxxxxx        xxxxxx       x     x            X
+X                                                                                       xxxxxxxx      x    xx  xx    xx  X
+X                                                                                       xxxxxxxx      x    xx  xx    xx  X
+X            xxxx                                       xxxxxxx                                       x     x            X
+X         xxxx  xxxx                     xxxxx         xx    xxx                                      x     x    xxxxx   X
+X        xx         x           xxxx     xxxxx        xxxxxxxxxxx                                     x     x    xxxxx   X
+X       xx          x           xxxx       x          x      xx x                                     xxxxxxxxxxxxxxxxxxxX
+X       xxxxxxxxxxxxx             x                   xxxxxxxxxxx                                                        X
+X                                                                                                                        X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X                                                                                X                                       X
+X                                                                  XXXXXX        X                                       X
+X                                                                 H      H       X                                       X
+X                                                                 H--o---H       X                                       X
+X                                                                 H------H       X                                       X
+X                                                                                X                                       X
+X                                                                total item      X                                       X
+X                                                                                X                                       X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
